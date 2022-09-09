@@ -1,10 +1,8 @@
-
-
 #include <stdio.h>
 
 /**
 
- * main - Print the string in the put function
+ * main - Print the string in the printf function
 
 
 
@@ -16,7 +14,7 @@ int main(void)
 
 {
 
-	printf("\"with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 	return (0);
 

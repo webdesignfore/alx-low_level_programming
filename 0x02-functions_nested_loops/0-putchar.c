@@ -1,18 +1,20 @@
-#include "holberton.h"
+#include"main.h"
+
 /**
  * main - Entry point
  *
+ * Description: prints _putchar using putchar prototype
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
-	char *sh = "Holberton";
+	char str[] = "_putchar";
+	int ch;
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
 	_putchar('\n');
 
 	return (0);

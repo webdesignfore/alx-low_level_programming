@@ -1,10 +1,9 @@
+#include "main.h"
 /**
- * reset_to_98 - takes a pointer to an int parameter
- *		and updates the value it points to 98
- *
- * @n: int parameter
- *
- * Return: Nothing
+ * reset_to_98 - takes the pointer and updates the value
+ * @n: int to check
+ * Owned By Sibusisiwe/Myeki
+ * Return: 0 is success
  */
 
 void reset_to_98(int *n)

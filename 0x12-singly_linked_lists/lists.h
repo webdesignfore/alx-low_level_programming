@@ -11,8 +11,8 @@
  * @len: length of the string
  * @next: points to the next node
  * Description: singly linked list node structure
- *
  */
+
 typedef struct list_s
 {
 	char *str;
